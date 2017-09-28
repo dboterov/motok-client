@@ -1,0 +1,29 @@
+#main {
+  position: absolute;
+  top: 60px;
+  left:0px;
+}
+
+select {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-size: 18px;
+  width: 100%;
+}
+
+select[disabled] {
+  color: #999;
+  background-color: #eee;
+}
+
+@media only screen and (min-width: 768px) {
+  #main {
+    position: absolute;
+    top: 0px;
+    left:300px;
+  }
+}

@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  /*background-color: #444;*/
+}
+
+.section-title {
+  position: absolute;
+  top: 0px;
+  left: 65px;
+}
+
+.head-table {
+  background: #A01E20;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.head-table:hover {
+  background: #A01E20 !important;
+  color: #FFFFFF !important;
+}
+
+.head-table th {
+  text-align: center;
+}
